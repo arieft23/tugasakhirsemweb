@@ -1,0 +1,393 @@
+@prefix ns1: <http://example.org/animals/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Anoa a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Anoa" ;
+    ns1:overview "Anoa, also known as midget buffalo and sapiutan, are a subgenus of Bubalus comprising two species native to Indonesia. They are live in undisturbed rainforest, bush, and swamp." ;
+    ns1:species "Bubalus depressicornis" .
+
+ns1:Ape a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Ape" ;
+    ns1:overview "Ape (Macaca nemestrina) can reach a weight of 5–15 kg in large males. These monkeys are buff-brown with a darker back and lighter lower parts of the body. Their common name refers to the short tail held semi-erect and reminiscent of the tail of a pig." ;
+    ns1:species "Macaca nemestrina" .
+
+ns1:Arapaima a ns1:Animal ;
+    ns1:class ns1:Pisces ;
+    ns1:name "Arapaima" ;
+    ns1:overview "Arapaima(genus Arapaima gigas) is a genus of bonytongues native to the Amazon and Essequibobasins of South America. They are among the largest freshwater fish in the world, reaching lengths of as much as 4.5 m (15 ft). They are important food fish and have declined in the native range due to overfishing and habitat loss." ;
+    ns1:species "Arapaima gigas" .
+
+ns1:Babirusa a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Babirusa" ;
+    ns1:overview "The Buru babirusa (Babyrousa babyrussa), also known as the Moluccan babirusa, golden babirusa or hairy babirusa, is a wild pig-like animal native to the island of Buru and the two Sula Islands of Mangole and Taliabu, all belonging to Indonesia. Traditionally, this relatively small species included the other babirusas as subspecies, but it has been recommended treating them as separate species based on differences in their morphology. As also suggested by its alternative common names, the Buru Babirusa has relatively long thick, gold-brown body-hair – a feature not shared by the other extant babirusas" ;
+    ns1:species "Babyrousa babyrussa" .
+
+ns1:Bear a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Bear" ;
+    ns1:overview "Bear (Helarctos malayanus) has all shinny black body, short tail, gray muzzle, There is a yellowish white patches on the upper chest form the letter V or C. Body weight can reach 60kg." ;
+    ns1:species "Helarctos malayanus" .
+
+ns1:Beo a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Beo" ;
+    ns1:overview "Beo (Gracula religiosa) is the myna most commonly seen in aviculture. It is a member of the starling family (Sturnidae), resident in hill regions of South Asia and Southeast Asia. The Sri Lanka hill myna, a former subspecies of G. religiosa, is now generally accepted as a separate species G. ptilogenys. Description: Large-sized (30 cm), black shiny, flashy white wing patches, distinctive yellow crest on the side of the head." ;
+    ns1:species "Gracula religiosa" .
+
+ns1:Binturong a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Binturong" ;
+    ns1:overview "Binturong (Arctictis binturong), also known as bearcat, is a viverrid native to South and Southeast Asia. It is uncommon in much of its range, and listed as Vulnerable by IUCN because of a declining population trend that is estimated at more than 30% over the last three decades." ;
+    ns1:species "Arctictis binturong" .
+
+ns1:Black_Lizard a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Black Lizard" ;
+    ns1:overview "Black lizard (Varanus beccarii) is a relatively small member of the Varanidae family, growing to about 90–120 cm (35–47 in) in length." ;
+    ns1:species "Varanus beccarii" .
+
+ns1:Blue_Peacock a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Blue Peacock" ;
+    ns1:overview "The Indian peafowl or blue peafowl (Pavo cristatus) is a large and brightly coloured bird of the pheasant family native to South Asia, but introduced in many other parts of the world like the United States, Mexico, Honduras, Colombia, Guyana, Suriname, Brazil, Uruguay, Argentina, South Africa, Madagascar, Mauritius, Réunion, Irian Jaya, Papua New Guinea and Australia" ;
+    ns1:species "Pavo cristatus" .
+
+ns1:Blue_Tongue_Lizard a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Blue Tongue Lizard" ;
+    ns1:overview "The Blue Tongue Lizard (Tiliqua gigas) is a close relative of the Eastern blue-tongued lizard. They are endemic to the island of New Guinea and other various surrounding islands. They are found typically in the rainforest, and in captivity, require high humidity." ;
+    ns1:species "Tiliqua gigas" .
+
+ns1:Bornean_Orangutan a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Bornean Orangutan" ;
+    ns1:overview "The Bornean Orangutan, (Pongo pygmaeus), is a species of orangutan native to the island of Borneo. Like the other great apes, orangutans are highly intelligent, displaying advanced tool use and distinct cultural patterns in the wild. Orangutans share approximately 97% of their DNA with humans." ;
+    ns1:species "Pongo pygmaeus" .
+
+ns1:Brown_Parrot a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Brown Parrot" ;
+    ns1:overview "Brown parrot (Chalcopsitta duivenbodei), also called Duyvenbode’s lory, is a species of parrot in the Psittaculidae family. It is found in West Papua, Indonesia and Papua New Guinea. Its natural habitat is subtropical or tropical moist lowland forests" ;
+    ns1:species "Chalcopsitta duivenbodei" .
+
+ns1:Chattering_Lorry a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Chattering Lorry" ;
+    ns1:overview "Red Parrot  Yellow-Back (Lorius garrulus) is a forest-dwelling parrot endemic to North Maluku, Indonesia. It is considered vulnerable, the main threat being from trapping for the cage-bird trade" ;
+    ns1:species "Lorius garrulus" .
+
+ns1:Chimpanzee a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Chimpanzee" ;
+    ns1:overview "Chimpanzees (Pan troglodytes) are members of the familyHominidae, along with gorillas, humans, andorangutans. Chimpanzees split from the human branch of the family about four to six million years ago. Chimpanzees are the closest living relatives to humans, being members of the tribe Hominini (along with extinct species of subtribe Hominina). Chimpanzees are the only known members of the subtribe Panina. The two Pan species split only about one million years ago." ;
+    ns1:species "Pan troglodytes" .
+
+ns1:Crested_Partridge a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Crested Partridge" ;
+    ns1:overview "The crested partridge (Rollulus rouloul) also known as the crested wood partridge, roul-roul, red-crowned wood partridge, green wood quail or green wood partridge is a gamebird in the pheasant family Phasianidae of the order Galliformes, gallinaceous birds. It is the only member of the genus Rollulus. Description: Regulated fat (25cm), tuft. Males: typical spreading crimson crest, the female head and a gray crest, wings brown, green body" ;
+    ns1:species "Rollulus rouloul" .
+
+ns1:Crowned_Crane a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Crowned Crane" ;
+    ns1:overview "Crowned crane (Balearica pavonina) is a bird in the crane family Gruidae. It occurs in dry savannah in Africa south of the Sahara, although in nests in somewhat wetter habitats. There are two subspecies: B. p. pavonina in the west and the more numerous B. p. ceciliae in east Africa" ;
+    ns1:species "Balearica pavonina" .
+
+ns1:Double_Wattle_Cassowary a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Double Wattle Cassowary" ;
+    ns1:overview "Double-wattled cassowary (Casuarius casuarius) also known as the southern cassowary, is a large flightless black bird. It is a ratite and therefore related to the emu, ostrich, and the genus Rhea. Regional distributions of the three species are in tropical forests and mountains on the island of New Guinea." ;
+    ns1:species "Casuarius casuarius" .
+
+ns1:Flamingo a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Flamingo" ;
+    ns1:overview "Flamingos or flamingoes are a type of wading bird in the genus Phoenicopterus the only genus in the family Phoenicopteridae. There are four flamingo species in the Americas and two species in the Old World" ;
+    ns1:species "Phoenicopterus roseus" .
+
+ns1:Gorilla a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Gorilla" ;
+    ns1:overview "Gorillas constitute the eponymous genus Gorilla, the largest extant genus of primates by physical size. They are ground-dwelling, predominantly herbivorous apes that inhabit the forests of central Africa. The genus is divided into two species: the eastern gorillas and the western gorillas, and either four or five subspecies." ;
+    ns1:species "Gorilla gorilla" .
+
+ns1:Green_Lizard a ns1:Animal ;
+    ns1:class ns1:Sauropsida ;
+    ns1:name "Green Lizard" ;
+    ns1:overview "Green lizard (Varanus prasinust) is a small to medium-sized arboreal monitor lizard. It is known for its unusual coloration, which consists of shades from green to turquoise, topped with dark, transverse dorsal banding. This coloration helps camouflage it in its arboreal habitat. Its colour also makes the emerald tree monitor highly coveted by private collectors and zoos alike." ;
+    ns1:species "Varanus prasinus" .
+
+ns1:Grey-headed_Fish_Eagle a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Grey-headed Fish Eagle" ;
+    ns1:overview "The grey-headed fish eagle (Ichthyophaga ichthyaetus) is a bird of prey. Like all eagles, it is in the family Accipitridae. The grey-headed fish eagle is a largish stocky raptor at about 70–75 cm in length. Adults have dark brown wings and back, a grey head and reddish brown breast. The lower belly, thighs and tail are white, the latter having a black terminal band. Sexes are similar, but young birds have a pale buff head, underparts and under wing, all with darker streaking." ;
+    ns1:species "Icthyophaga ichthyaetus" .
+
+ns1:Irian_Eagle a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Irian Eagle" ;
+    ns1:overview "Irian eagle (Harpyopsis novaeguineae) also known as the Papuan harpy eagle, New Guinea eagle, or Kapul eagle, is a large (length 75–90 cm, wingspan 157 cm, weight 1600–2400 g) greyish brown raptor with a short full crest, broad three-banded wings, powerful beak, large iris, long rounded tail and white underparts. It has long and powerful unfeathered legs with sharp claws. The sexes are similar, and the female is slightly larger than the male. It is the only member of the monotypic genus Harpyopsis." ;
+    ns1:species "Harpyopsis novaeguineae" .
+
+ns1:Jaguar a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Jaguar" ;
+    ns1:overview "The jaguar or Panthera onca, is a big cat, a feline in the Panthera genus, and is the only Panthera species found in the Americas. The jaguar is the third-largest feline after the tiger and the lion, and the largest in the Western Hemisphere." ;
+    ns1:species "Panthera onca" .
+
+ns1:Java_Bull a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Java Bull" ;
+    ns1:overview "Bull (Bos javanicus) also known as tembadau, is a species of wild cattle found in Southeast Asia. Bulls are much more muscular than cows, with thicker bones, larger feet, a very muscular neck, and a large, bony head with protective ridges over the eyes." ;
+    ns1:species "Bos javanicus" .
+
+ns1:King_Kobra a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "King Kobra" ;
+    ns1:overview "The king cobra is an elapid found predominantly in forests from India through Southeast Asia. This species is the world’s longest venomous snake, with a length up to 18.5 to 18.8 ft (5.6 to 5.7 m). The king cobra is considered to be a dangerous snake and has a fearsome reputation in its range, although it typically avoids confrontation with humans if possible." ;
+    ns1:species "Ophiophagus hannah" .
+
+ns1:King_Parrrot a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "King Parrrot" ;
+    ns1:overview "The king parrot (Probosciger aterrimus), also known as the goliath cockatoo or great black cockatoo, is a large smoky-grey or black parrot of the cockatoo family native to New Guinea and far north Queensland, Australia. It has a very large black beak and prominent red cheek patches." ;
+    ns1:species "Probosciger aterrimus" .
+
+ns1:Knobbed_hornbill a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Knobbed hornbill" ;
+    ns1:overview "The knobbed hornbill (Aceros cassidix) also known as Sulawesi wrinkled hornbill is a large black hornbill with a yellow bill, white tail feathers, pale blue skin around eye, blackish feet and bare dark blue throat. The male has rufous/buff face and neck, orange-red eyes, and a high reddish casque on the top of his bill. The female has a black face and neck, a yellow casque, and brownish eyes" ;
+    ns1:species "Aceros cassidix" .
+
+ns1:Komodo a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Komodo" ;
+    ns1:overview "Komodo is a large species of lizard found in the Indonesian islands of Komodo, Rinca, Flores, Gili Motang, and Padar. A member of the monitor lizard family (Varanidae), it is the largest living species of lizard, growing to a maximum length of 3 metres (10 ft) in rare cases and weighing up to approximately 70 kilograms." ;
+    ns1:species "Varanus komodoensis" .
+
+ns1:Lion a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Lion" ;
+    ns1:overview "The lion (Panthera leo) is one of the five big cats in the genus Panthera and a member of the family Felidae. With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after the tiger. Wild lions currently exist in sub-Saharan Africa and in Asia (where an endangered remnant population resides in Gir Forest National Park in India) while other types of lions have disappeared from North Africa and Southwest Asia in historic times." ;
+    ns1:species "Panthera leo" .
+
+ns1:Lizard_Salvator a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Lizard Salvator" ;
+    ns1:overview "Salvator Lizard (Varanus salvator) is a large lizard native to South and Southeast Asia. Water monitors are one of the most common monitor lizards found throughout Asia, and range from Bangladesh, Sri Lanka and India to Indochina, the Malay Peninsula, and various islands of Indonesia, living in areas close to water." ;
+    ns1:species "Varanus salvator" .
+
+ns1:Maluku_Lizard a ns1:Animal ;
+    ns1:class ns1:Sauropsida ;
+    ns1:name "Maluku Lizard" ;
+    ns1:overview "Maluku lizard (Varanus indicus) is a member of the monitor lizard family with a large distribution from Maluku Islands, to Australia and New Guinea, Solomon Islands, Marshall Islands, Caroline Islands, and Marianas Islands. It grows to lengths of 3.5 to 4 ft (1.1 to 1.2 m)." ;
+    ns1:species "Varanus indicus" .
+
+ns1:Monkey_Boti a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Monkey Boti" ;
+    ns1:overview "Monkey boti (Macaca tonkeana) is a species of primate in the Cercopithecidae family. It is endemic to central Sulawesi and the nearby Togian Islands in Indonesia. It is threatened by habitat loss. Widespread mining in central Sulawesi and in the nearby province of Gorontalo are believed to exacerbating the problems of habitat loss." ;
+    ns1:species "Macaca tonkeana" .
+
+ns1:Monkey_Budeng a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Monkey Budeng" ;
+    ns1:overview "The Javan lutung (Trachypithecus auratus), also known as the ebony lutung and Javan langur, is an Old World monkey from the Colobinae subfamily. It is most commonly glossy black with a brownish tinge to its legs, sides, and “sideburns”. It is found on and endemic to the island of Java, as well as on several of the surrounding Indonesian islands. The Latin word auratus in its scientific name means “golden”, and refers to a less common color variant." ;
+    ns1:species "Trachypithecus auratus" .
+
+ns1:Monkey_Kokah a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Monkey Kokah" ;
+    ns1:overview "Monkey kokah (Presbytis siamensis) is a species of primate in the Cercopithecidae family. It isendemic to the Thai-Malay Peninsula, the Riau Archipelago andSumatra. Four subspecies,siamensis (nominate), cana,paenulata and rhionis, are recognized here, but the taxonomyis disputed and in need of a review, and it has included P. natunae as a subspecies, or alternatively both have been considered subspecies of P. femoralis." ;
+    ns1:species "Presbytis femoralis" .
+
+ns1:Necklace_Parrot a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Necklace Parrot" ;
+    ns1:overview "Necklace Parrot (Psittacula alexandri) is among the more widespread species of the genus and is the species that has the most geographical variations. he large reddish patch on its breast easily identifies it. An alternative name is the mustached parakeet depending on subspecies. Most of the subspecies are confined to small islands or a cluster of islands in Indonesia." ;
+    ns1:species "Psittacula alexandri" .
+
+ns1:Nilgai a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Nilgai" ;
+    ns1:overview "The nilgai (Boselaphus tragocamelus), sometimes called nilgau, is the largestAsian antelope. It is one of the most commonly seen wild animals of central and northernIndia, often seen in farmland or scrub forest. The mature male appears ox-like and is also known as the blue bull." ;
+    ns1:species "Boselaphus tragocamelus" .
+
+ns1:Ostrich a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Ostrich" ;
+    ns1:overview "The ostrich (Struthio camelus) is either one or two species of large flightless birds native to Africa, the only living member(s) of the genus Struthio, which is in the ratite family. Some analyses indicate that the Somali ostrich may be better considered a full species separate from the common ostrich, but most taxonomists consider it to be a subspecies." ;
+    ns1:species "Struthio camelus" .
+
+ns1:Pelikan a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Pelikan" ;
+    ns1:overview "Pelicans (Pelecanus onocrotalus) are a genus of large water birds that makes up the family Pelecanidae. They are characterised by a long beak and a large throat pouch used for catching prey and draining water from the scooped up contents before swallowing. They have predominantly pale plumage, the exceptions being the brown and Peruvian pelicans. The bills, pouches and bare facial skin of all species become brightly coloured before the breeding season." ;
+    ns1:species "Pelecanus onocrotalus" .
+
+ns1:Phyton_Patola a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Phyton Patola" ;
+    ns1:overview "Phyton Patola (Morelia amethistina) is a non-venomous species of snake, known as the amethystine, scrub python or Sanca permata locally, found in Indonesia, Papua New Guinea and Australia." ;
+    ns1:species "Morelia amethistina" .
+
+ns1:Proboscis a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Proboscis" ;
+    ns1:overview "The proboscis monkey (Nasalis larvatus) or long-nosed monkey, known as the bekantan in Malay, is a reddish-brown arboreal. Old World monkey that is endemic to the south-east Asian island of Borneo, this species co-exists with the Bornean Orang-utan." ;
+    ns1:species "Nasalis larvatus" .
+
+ns1:Python a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Python" ;
+    ns1:overview "Python reticulatus, also known as the (Asiatic) reticulated python, is a species of python found in Southeast Asia. Adults can grow to 6.95 m (22.8 ft) in length but normally grow to an average of 3–6 m (9.8–19.7 ft). They are the world’s longest snakes and longest reptile." ;
+    ns1:species "Python reticulatus" .
+
+ns1:Python_Albino a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Python Albino" ;
+    ns1:overview "Python albino is one of the five largest snakes in the world, native to a large variation of tropic and subtropic areas of Southern- and Southeast Asia. They are often found near water and are sometimes semi-aquatic, but can also be found in trees." ;
+    ns1:species "Python bivittatus" .
+
+ns1:Red_Cheek_Turtle a ns1:Animal ;
+    ns1:class ns1:Reptilia ;
+    ns1:name "Red Cheek Turtle" ;
+    ns1:overview "The red-eared slider (Trachemys scripta elegans), also known as red-eared terrapin, is a semiaquatic turtle belonging to the family Emydidae. It is a subspecies of the pond slider. It is the most popular pet turtle in the United States and is also popular as a pet in the rest of the world as among other factors, it is easy to maintain." ;
+    ns1:species "Trachemys scripta" .
+
+ns1:Sambar_Deer a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Sambar Deer" ;
+    ns1:overview "Sambar deer is a large deer native to the Indian Subcontinent, southern China and Southeast Asia. Although it primarily refers to R. unicolor, the name “sambar” is also sometimes used to refer to the Philippine deer (called the Philippine sambar) and the rusa deer (called the Sunda sambar). The name is also spelled sambur, or sambhur." ;
+    ns1:species "Rusa unicolor" .
+
+ns1:Scaly-breasted_Eagle a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Scaly-breasted Eagle" ;
+    ns1:overview "The brahminy kite (Haliastur indus) also known as the red-backed sea-eagle in Australia, is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors, such as eagles, buzzards, and harriers. They are found in the Indian subcontinent, Southeast Asia, and Australia. They are found mainly on the coast and in inland wetlands where they feed on dead fish and other prey. Adults have a reddish brown plumage and a contrasting white head and breast which makes them easy to distinguish from other birds of prey." ;
+    ns1:species "Haliastur indus" .
+
+ns1:Siamang a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Siamang" ;
+    ns1:overview "The siamang (Symphalangus syndactylus) is a tailless, arboreal, black-furred gibbon native to the forests of Malaysia, Thailand, and Sumatra. The largest of the lesser apes, the siamang can be twice the size of other gibbons, reaching 1 m in height, and weighing up to 14 kg. The siamang is the only species in the genus Symphalangus." ;
+    ns1:species "Symphalangus syndactylus" .
+
+ns1:Simpai a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Simpai" ;
+    ns1:overview "The Sumatran surili (Presbytis melalophos) is a species of primate in the Cercopithecidae family. It is endemic to Sumatra inIndonesia. Its natural habitat is subtropical or tropical dry forests. It is threatened by habitat loss" ;
+    ns1:species "Presbytis melalophos" .
+
+ns1:Single_Wattle_Cassowary a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Single Wattle Cassowary" ;
+    ns1:overview "The single wattle cassowary (Casuarius unappendiculatus) also known as The northern cassowary or golden-necked cassowary, is a large, stocky flightless bird of northern New Guinea. They are members of the superorder Paleognathae." ;
+    ns1:species "Casuarius unappendiculatus" .
+
+ns1:Sitatunga a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Sitatunga" ;
+    ns1:overview "The sitatunga or marshbuck (Tragelaphus spekii) is a swamp-dwelling antelope found throughout Central Africa, centering on theDemocratic Republic of the Congo,Cameroon, parts of Southern Sudan, Ghana,Botswana, Zambia, Gabon, Tanzania,Uganda and Kenya." ;
+    ns1:species "Tragelaphus spekii" .
+
+ns1:Slow_loris a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Slow loris" ;
+    ns1:overview "The Sunda slow loris (Nycticebus coucang) or greater slow loris is a strepsirrhine primate and a species of slow loris native to Indonesia, western Malaysia, southern Thailand and Singapore." ;
+    ns1:species "Nycticebus coucang" .
+
+ns1:Spotted_Deer a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Spotted Deer" ;
+    ns1:overview "The chital or cheetal (Axis axis), also known as chital deer, spotted deer oraxis deer, is a deer which commonly inhabits wooded regions of India, Sri Lanka, Nepal, Bangladesh, Bhutan, and in small numbers in Pakistan. It is the most common deer species in Indian forests. The name chital comes from the Bengali word chitral (চিত্রল)/chitra (চিত্রা), which means “spotted”." ;
+    ns1:species "Axis axis" .
+
+ns1:Sri_Lanka_Leopard a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Sri Lanka Leopard" ;
+    ns1:overview "The leopard (Panthera pardus) is one of the five “big cats” in the genus Panthera. It is a member of the Felidae family with a wide range in some parts of sub-Saharan Africa, West Asia, the Middle East, South andSoutheast Asia to Siberia." ;
+    ns1:species "Panthera pardus" .
+
+ns1:Sumatran_Elephant a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Sumatran Elephant" ;
+    ns1:overview "Sumatran elephant is a subspecies of Asian elephant where its habitat is only in the Sumatera island. Sumatran elephant has smaller body than the Indian elephant. Its population has declined and become highly threatened species." ;
+    ns1:species "Elephas maximus" .
+
+ns1:Sumatran_Tiger a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Sumatran Tiger" ;
+    ns1:overview "Sumatran tiger (Panthera tigris sumatrae) is a tiger subspecies where its native habitat at the Sumatera island. Sumateran tiger has a characteristic striped bark yellowish brown with vertical black stripes from head to tail. Can reach 60 cm high, with a length of 250 cm. It’s the last tiger subspecies in Indonesia." ;
+    ns1:species "Panthera tigris" .
+
+ns1:Surilli a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Surilli" ;
+    ns1:overview "Surilis are rather small, slim built primates. Their fur at the top is brown, grey, black or orange, and at the lower surface whitish or greyish, sometimes also orange, with some species having fur designs at the head or at the hips." ;
+    ns1:species "Presbytis comata" .
+
+ns1:Tapir a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Tapir" ;
+    ns1:overview "The Malayan tapir (Tapirus indicus), also called the Asian tapir, is the largest of the five species of tapir and the only one native to Asia. The scientific name refers to the East Indies, the species’ natural habitat. In the Malay language, the tapir is commonly referred to as cipan, tenuk or badak tampung." ;
+    ns1:species "Tapirus indicus" .
+
+ns1:Victoria_Crowned_Pigeon a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Victoria Crowned Pigeon" ;
+    ns1:overview "The Victoria crowned pigeon (Goura victoria) is a large, bluish-grey pigeon with elegant blue lace-like crests, maroon breast and red iris. It is part of a genus of three unique very large, ground-dwelling pigeons native to the New Guinea region. The bird may be easily recognized by the unique white tips on its crests and by its deep ‘whooping’ sounds made while calling" ;
+    ns1:species "Goura victoria" .
+
+ns1:White_Tiger a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "White Tiger" ;
+    ns1:overview "The Bengal tiger (Panthera tigris tigris) is the most numerous tiger subspecies. Its populations have been estimated at 1,706–1,909 in India, 440 in Bangladesh, 163–253 in Nepal and 67–81 in Bhutan." ;
+    ns1:species "Panthera tigris" .
+
+ns1:Yaki a ns1:Animal ;
+    ns1:class ns1:Mammalia ;
+    ns1:name "Yaki" ;
+    ns1:overview "Yaki (Macaca nigra), also known as the crested black macaque, Sulawesi crested macaque, or the black ape, is an Old World monkey that lives in the Tangkoko reserve, northeast of the Indonesian island of Sulawesi(Celebes), as well as on smaller neighboring islands." ;
+    ns1:species "Macaca nigra" .
+
+ns1:Yellow-Crested_Cockatoo a ns1:Animal ;
+    ns1:class ns1:Aves ;
+    ns1:name "Yellow-Crested Cockatoo" ;
+    ns1:overview "The sulphur-crested cockatoo (Cacatua galerita) is a relatively large white cockatoo found in wooded habitats in Australia and New Guinea and some of the islands of Indonesia. They can be locally very numerous, leading to them sometimes being considered pests. They are well known in aviculture, although they can be demanding pets." ;
+    ns1:species "Cacatua galerita" .
+
+ns1:class a rdf:Property .
+
+ns1:name a rdf:Property .
+
+ns1:overview a rdf:Property .
+
+ns1:species a rdf:Property .
+
+ns1:classLabel a rdf:Property .
+
+ns1:Pisces a ns1:AnimalClass ;
+    ns1:classLabel "Pisces" .
+
+ns1:Sauropsida a ns1:AnimalClass ;
+    ns1:classLabel "Sauropsida" .
+
+ns1:Mammalia a ns1:AnimalClass ;
+    ns1:classLabel "Mammalia" .
+
+ns1:Reptilia a ns1:AnimalClass ;
+    ns1:classLabel "Reptilia" .
+
+ns1:Aves a ns1:AnimalClass ;
+    ns1:classLabel "Aves" .
+
+
+
